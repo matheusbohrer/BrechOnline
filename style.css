@@ -90,6 +90,9 @@ section {
 .bradpitt {
     display: flex;
     width: 300px;
+    position: relative;
+    padding: 10px;
+    border-radius: 100px;
 }
 
 .logobronne {
