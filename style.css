@@ -90,3 +90,8 @@ h1, p {
     justify-content: center;
     gap: 32px;
 }
+
+.bradpitt {
+    display: flex;
+    width: 300px;
+}
