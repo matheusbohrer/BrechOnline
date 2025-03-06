@@ -79,15 +79,25 @@ section {
     display: block;
 }
 
+.carousel-container {
+    width: 300px; /* Largura do carrossel visível */
+    overflow: hidden; /* Esconde imagens fora da área visível */
+    margin: 0 auto; /* Centraliza o carrossel */
+}
+
 .carousel {
-    display: flex;
-    overflow: hidden;
-    width: 300px;
+    display: flex; /* Exibe as imagens lado a lado */
+    transition: transform 0.5s ease-in-out; /* Transição suave ao mover */
+}
+
+.carousel-item {
+    flex-shrink: 0; /* Impede que os itens encolham */
+    width: 300px; /* Largura de cada imagem, mesma do contêiner */
 }
 
 .carousel img {
-    width: 100%;
-    transition: transform 0.5s ease-in-out;
+    width: 100%; /* Faz com que a imagem ocupe toda a largura do item */
+    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
 }
 
 .conteudo {
