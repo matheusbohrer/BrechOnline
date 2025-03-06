@@ -80,8 +80,9 @@ section {
 }
 
 .carousel-container {
-    width: 300px; /* Largura do carrossel visível */
-    overflow: hidden; /* Esconde imagens fora da área visível */
+    position: relative;
+    width: 1500px; /* Exibe 5 imagens de 300px cada */
+    overflow: hidden; /* Esconde as imagens fora da área visível */
     margin: 0 auto; /* Centraliza o carrossel */
 }
 
@@ -92,12 +93,33 @@ section {
 
 .carousel-item {
     flex-shrink: 0; /* Impede que os itens encolham */
-    width: 300px; /* Largura de cada imagem, mesma do contêiner */
+    width: 300px; /* Largura de cada imagem */
 }
 
 .carousel img {
     width: 100%; /* Faz com que a imagem ocupe toda a largura do item */
     height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+}
+
+.carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
 }
 
 .conteudo {
