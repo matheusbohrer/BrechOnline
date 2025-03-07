@@ -87,7 +87,7 @@ section {
 
 .carousel-container {
     position: relative;
-    width: 1500px;
+    width: 1650px;
     overflow: hidden;
     margin: 0 auto;
 }
@@ -170,14 +170,14 @@ section {
 
 .caixinha {
     position: fixed;
-    top: 530px;
-    left: 1620px;
-    width: 250px;
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-    color: #fff;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    top: 490px; 
+    left: 1620px; 
+    width: 250px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    border-radius: 10px; 
+    color: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .caixinha h1 {
@@ -235,4 +235,3 @@ section {
     padding: 4px;
     background-color: #007bff;
     color: #fff;
-}
