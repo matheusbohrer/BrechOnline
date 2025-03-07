@@ -94,6 +94,12 @@ section {
 .carousel-item {
     flex-shrink: 0; /* Impede que os itens encolham */
     width: 300px; /* Largura de cada imagem */
+    background-color: #6b6b6b;
+    border-radius: 50px;
+    margin: 15px;
+    padding: 8px;
+    background: radial-gradient(circle, #6666668c, #1d1d1dda);
+    box-shadow: 0px 4px 8px rgba(46, 46, 46, 0.65)
 }
 
 .carousel img {
