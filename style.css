@@ -237,3 +237,9 @@ section {
     background-color: #007bff;
     color: #fff;
 }
+
+.peca {
+    background-color: white;
+    margin: 12px;
+    border-radius: 50px;
+}
