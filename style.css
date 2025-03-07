@@ -152,3 +152,54 @@ section {
     font-size: larger;
     text-align: center;
 }
+
+.caixinha {
+    position: fixed;
+    top: 460px; /* Distância do topo da página */
+    left: 1580px; /* Distância da esquerda da página */
+    width: 250px; /* Largura da caixa */
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com transparência */
+    padding: 20px; /* Espaçamento interno */
+    border-radius: 10px; /* Bordas arredondadas */
+    color: #fff; /* Texto branco */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar a caixa */
+}
+
+.caixinha h1 {
+    margin-bottom: 15px;
+    font-size: 24px;
+    text-align: center;
+}
+
+.caixinha label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.caixinha input[type="text"],
+.caixinha input[type="email"],
+.caixinha input[type="mensagem"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+}
+
+.caixinha button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.caixinha button:hover {
+    background-color: #0056b3;
+}
