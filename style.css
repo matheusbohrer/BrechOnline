@@ -180,17 +180,24 @@ section {
 }
 
 .caixinha {
-    position: absolute;
-    top: -20px; 
-    left: 1620px; 
-    width: 250px; 
+    position: fixed;
+    bottom: 20px; 
+    left: 20px; 
+    width: auto;
+    height: auto; 
     background-color: rgba(0, 0, 0, 0.7); 
-    padding: 20px; 
+    padding: 15px; 
     border-radius: 10px;
     border: 1px solid #ccc; 
     color: #fff; 
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
     z-index: 6;
+}
+
+.caixinha.visible {
+    width: 250px;
+    height: auto;
+    min-height: 400px;
 }
 
 #contactForm {
@@ -201,10 +208,9 @@ section {
     display: block;
 }
 
-.caixinha h1 {
-    margin-bottom: 7px;
-    font-size: 24px;
-    text-align: center;
+.caixinha img {
+    width: 40px;
+    height: 40px;
 }
 
 .caixinha label {

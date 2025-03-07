@@ -16,8 +16,8 @@
 <body>
     <header>
         <section class="caixinha">
-            <h1>Contato</h1>
-            <button id="toggleButton">Abrir/Fechar</button>
+            <img src="https://img.freepik.com/vetores-premium/icone-isolado-do-vetor-do-receptor-de-telefone-ilustracao-de-emojis-emoticon-de-vetor-de-telefone-antigo_603823-738.jpg"
+                id="toggleButton" alt="Abrir/Fechar Contato" style="cursor: pointer;">
             <form action="#" method="post" id="contactForm">
                 <label for="nome">Nome:</label>
                 <input type="text" id="nome" name="nome" required>
@@ -32,6 +32,8 @@
             </form>
             <script>
                 document.getElementById('toggleButton').addEventListener('click', function () {
+                    var caixinha = document.querySelector('.caixinha');
+                    caixinha.classList.toggle('visible');
                     var form = document.getElementById('contactForm');
                     form.classList.toggle('visible');
                 });
@@ -189,7 +191,7 @@
 
             </div>
         </section>
-        
+
 
 
 
