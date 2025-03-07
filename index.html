@@ -15,7 +15,28 @@
 
 <body>
     <header>
+        <section class="caixinha">
+            <h1>Contato</h1>
+            <button id="toggleButton">Abrir/Fechar</button>
+            <form action="#" method="post" id="contactForm">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <script>
+                document.getElementById('toggleButton').addEventListener('click', function () {
+                    var form = document.getElementById('contactForm');
+                    form.classList.toggle('visible');
+                });
+            </script>
+        </section>
         <nav class="navbar">
             <div>
                 <div class="logo">
@@ -163,26 +184,15 @@
                             durabilidade das peças e a preservação do planeta.
                         </td>
                     </tr>
+
                 </table>
+
             </div>
         </section>
+        
 
 
-        <section class="caixinha">
-            <h1>Contato</h1>
-            <form action="#" method="post">
-                <label for="nome">Nome:</label>
-                <input type="text" id="nome" name="nome" required>
 
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="mensagem">Mensagem:</label>
-                <input type="mensagem" id="mensagem" name="mensagem" required>
-
-                <button type="submit">Enviar</button>
-            </form>
-        </section>
     </main>
 
     <footer class="rodape">
