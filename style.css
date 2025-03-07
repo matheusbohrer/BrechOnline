@@ -108,12 +108,15 @@ section {
     margin: 15px;
     padding: 8px;
     background: radial-gradient(circle, #6666668c, #1d1d1dda);
-    box-shadow: 0px 4px 8px rgba(46, 46, 46, 0.65)
+    box-shadow: 0px 4px 8px rgba(46, 46, 46, 0.65);
+    justify-content: space-between;
+    
 }
 
 .carousel img {
     width: 100%;
     height: auto;
+    min-height: 100%;
 }
 
 .carousel-btn {
@@ -247,4 +250,5 @@ section {
     background-color: white;
     margin: 12px;
     border-radius: 50px;
+    min-height: auto;
 }
