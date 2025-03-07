@@ -81,19 +81,19 @@ section {
 
 .carousel-container {
     position: relative;
-    width: 1500px; /* Exibe 5 imagens de 300px cada */
-    overflow: hidden; /* Esconde as imagens fora da área visível */
-    margin: 0 auto; /* Centraliza o carrossel */
+    width: 1500px;
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .carousel {
-    display: flex; /* Exibe as imagens lado a lado */
-    transition: transform 0.5s ease-in-out; /* Transição suave ao mover */
+    display: flex;
+    transition: transform 0.5s ease-in-out; /
 }
 
 .carousel-item {
-    flex-shrink: 0; /* Impede que os itens encolham */
-    width: 300px; /* Largura de cada imagem */
+    flex-shrink: 0;
+    width: 300px;
     background-color: #6b6b6b;
     border-radius: 50px;
     margin: 15px;
@@ -103,8 +103,8 @@ section {
 }
 
 .carousel img {
-    width: 100%; /* Faz com que a imagem ocupe toda a largura do item */
-    height: auto; /* Ajusta a altura automaticamente para manter a proporção */
+    width: 100%;
+    height: auto;
 }
 
 .carousel-btn {
