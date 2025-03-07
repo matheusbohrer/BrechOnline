@@ -101,6 +101,7 @@ section {
 .carousel-item {
     display: flex;
     flex-direction: column;
+    box-sizing: border-box;
     align-items: center;
     text-align: center;
     width: 300px;
