@@ -286,7 +286,7 @@ section {
 
 .info-ticker p {
     display: inline-block;
-    animation: ticker 10s linear infinite;
+    animation: ticker 7s linear infinite;
     color: white;
 }
 
