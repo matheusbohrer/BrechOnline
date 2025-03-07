@@ -155,14 +155,14 @@ section {
 
 .caixinha {
     position: fixed;
-    top: 460px; /* Distância do topo da página */
-    left: 1580px; /* Distância da esquerda da página */
-    width: 250px; /* Largura da caixa */
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com transparência */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    color: #fff; /* Texto branco */
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Sombra para destacar a caixa */
+    top: 460px; 
+    left: 1620px; 
+    width: 250px; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px; 
+    border-radius: 10px; 
+    color: #fff; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); 
 }
 
 .caixinha h1 {
