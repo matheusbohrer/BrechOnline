@@ -248,3 +248,30 @@ section {
     margin: 12px;
     border-radius: 50px;
 }
+
+.info-ticker {
+    background-color: #007bff;
+    color: #333;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+    z-index: 5;
+}
+
+.info-ticker p {
+    display: inline-block;
+    animation: ticker 10s linear infinite;
+    color: white;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
