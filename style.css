@@ -236,6 +236,11 @@ section {
     padding: 4px;
     background-color: #007bff;
     color: #fff;
+    cursor: pointer;
+}
+
+.descrições button:hover {
+    background-color: #0056b3
 }
 
 .peca {
