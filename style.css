@@ -167,7 +167,9 @@ section {
 
 .sobrenos {
     text-align: left;
-    font-size: larger;
+    position: relative;
+    margin-bottom: 8px;
+    font-size: x-large;
 }
 
 .ponho {
